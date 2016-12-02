@@ -150,8 +150,17 @@ class ClosureObj: NSObject {
         print("Now serving is \(customerCloser())")
     }
     
-    func d () {
+    func test2 () {
         serve(customer: {customers.remove(at: 0)})
     }
     
+    // 使用autoClosure
+    
+    func serve2(customer customerClosure: @autoclosure () -> String){
+        print("Now serving is \(customerClosure())")
+    }
+    
+    func test3 (){
+        serve2(customer: customers.remove(at: 0))
+    }
 }
