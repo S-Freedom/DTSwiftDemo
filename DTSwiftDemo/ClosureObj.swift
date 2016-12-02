@@ -1,5 +1,5 @@
 //
-//  BloserObj.swift
+//  ClosureObj.swift
 //  first_swift_demo
 //
 //  Created by liuyuting on 16/12/1.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class BloserObj: NSObject {
+class ClosureObj: NSObject {
 
     // 直接赋值属性，看看和闭包有何区别，看不出来吗，那就往下看吧
     var str : String = "jack"
@@ -127,4 +127,31 @@ class BloserObj: NSObject {
         return incrementAmount
         
     }
+    
+//    逃逸闭包
+//    @escaping
+//    
+//    传递给函数的闭包如果不是在函数内调用，而是在函数内用外部变量保存当前的闭包，在合适的时间再进行调用，这是就需要在闭包参数前加入 @escaping 关键字，不然编译器会报错。
+//    
+//    比较好理解的就是经常用到的网络请求，请求完成才执行完成的闭包。
+//    
+//    官方的例子如下：
+    var escapClosures : [() -> String] = []
+    
+    func escap(escapClosure: @escaping () -> String){
+        escapClosures.append(escapClosure)
+    }
+    
+//    @autoclosure  自动闭包
+    
+    // 如果不用autoClosure
+    var customers = ["ALex","EWa","job","jack"]
+    func serve(customer customerCloser : () -> String){
+        print("Now serving is \(customerCloser())")
+    }
+    
+    func d () {
+        serve(customer: {customers.remove(at: 0)})
+    }
+    
 }

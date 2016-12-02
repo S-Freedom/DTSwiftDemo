@@ -55,7 +55,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         view.addSubview(self.tableView)
         
         print("以下是测试数据")
-        let obj = BloserObj()
+        let obj = ClosureObj()
         let ten = obj.increment(amount: 10)
         let one = obj.increment(amount: 1)
         print("add ten \(ten())")

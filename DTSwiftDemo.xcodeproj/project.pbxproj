@@ -13,7 +13,7 @@
 		5DD406A41DF0382B00A25C21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DD406A21DF0382B00A25C21 /* LaunchScreen.storyboard */; };
 		5DD406AF1DF0382B00A25C21 /* DTSwiftDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD406AE1DF0382B00A25C21 /* DTSwiftDemoTests.swift */; };
 		5DD406BA1DF0382B00A25C21 /* DTSwiftDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD406B91DF0382B00A25C21 /* DTSwiftDemoUITests.swift */; };
-		5DD406C81DF0388200A25C21 /* BloserObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD406C71DF0388200A25C21 /* BloserObj.swift */; };
+		5DD406C81DF0388200A25C21 /* ClosureObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD406C71DF0388200A25C21 /* ClosureObj.swift */; };
 		5DD406CC1DF0389600A25C21 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD406C91DF0389600A25C21 /* Person.swift */; };
 		5DD406CD1DF0389600A25C21 /* LSCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD406CA1DF0389600A25C21 /* LSCustomCell.swift */; };
 		5DD406CE1DF0389600A25C21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD406CB1DF0389600A25C21 /* ViewController.swift */; };
@@ -49,7 +49,7 @@
 		5DD406B51DF0382B00A25C21 /* DTSwiftDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DTSwiftDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DD406B91DF0382B00A25C21 /* DTSwiftDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTSwiftDemoUITests.swift; sourceTree = "<group>"; };
 		5DD406BB1DF0382B00A25C21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5DD406C71DF0388200A25C21 /* BloserObj.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BloserObj.swift; sourceTree = "<group>"; };
+		5DD406C71DF0388200A25C21 /* ClosureObj.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClosureObj.swift; sourceTree = "<group>"; };
 		5DD406C91DF0389600A25C21 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		5DD406CA1DF0389600A25C21 /* LSCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSCustomCell.swift; sourceTree = "<group>"; };
 		5DD406CB1DF0389600A25C21 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -108,7 +108,7 @@
 				5DD406CA1DF0389600A25C21 /* LSCustomCell.swift */,
 				5DD406CB1DF0389600A25C21 /* ViewController.swift */,
 				5DD4069D1DF0382B00A25C21 /* Main.storyboard */,
-				5DD406C71DF0388200A25C21 /* BloserObj.swift */,
+				5DD406C71DF0388200A25C21 /* ClosureObj.swift */,
 				5DD406A01DF0382B00A25C21 /* Assets.xcassets */,
 				5DD406A21DF0382B00A25C21 /* LaunchScreen.storyboard */,
 				5DD406A51DF0382B00A25C21 /* Info.plist */,
@@ -274,7 +274,7 @@
 				5DD406CE1DF0389600A25C21 /* ViewController.swift in Sources */,
 				5DD406CC1DF0389600A25C21 /* Person.swift in Sources */,
 				5DD4069A1DF0382B00A25C21 /* AppDelegate.swift in Sources */,
-				5DD406C81DF0388200A25C21 /* BloserObj.swift in Sources */,
+				5DD406C81DF0388200A25C21 /* ClosureObj.swift in Sources */,
 				5DD406CD1DF0389600A25C21 /* LSCustomCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
